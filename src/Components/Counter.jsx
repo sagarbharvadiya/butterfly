@@ -1,5 +1,6 @@
 import React from 'react'
 import CountUp from 'react-countup';
+import dataJson from "../Data/data.json"
 
 const Counter = () => {
     return (
@@ -11,34 +12,19 @@ const Counter = () => {
                         <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
                     </div>
                     <div className='row counters position-relative'>
-                        <div className='col-lg-3 col-6 text-center'>
-                            <CountUp
-                                end={232}
-                                duration={5}
-                            ></CountUp>
-                            <p>Clients</p>
-                        </div>
-                        <div className='col-lg-3 col-6 text-center'>
-                            <CountUp
-                                end={521}
-                                duration={5}
-                            ></CountUp>
-                            <p>Projects</p>
-                        </div>
-                        <div className='col-lg-3 col-6 text-center'>
-                            <CountUp
-                                end={1463}
-                                duration={5}
-                            ></CountUp>
-                            <p>Hours Of Support</p>
-                        </div>
-                        <div className='col-lg-3 col-6 text-center'>
-                            <CountUp
-                                end={15}
-                                duration={5}
-                            ></CountUp>
-                            <p>Hard Workers</p>
-                        </div>
+                        {
+                            dataJson.counter.map((d, i) => (
+                                <React.Fragment key={d.id}>
+                                    <div className='col-lg-3 col-6 text-center'>
+                                        <CountUp
+                                            end={d.count}
+                                            duration={5}
+                                        ></CountUp>
+                                        <p>{d.count_t}</p>
+                                    </div>
+                                </React.Fragment>
+                            ))
+                        }
                     </div>
                 </div>
             </section>

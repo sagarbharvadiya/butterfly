@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos';
+// import * as Icons from 'react-bootstrap-icons';
+import dataJson from '../Data/data.json';
 const About_section = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -11,42 +13,31 @@ const About_section = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <div data-aos="fade-left" data-aos-offset="200" className='about_video'>
-                <a href="https://www.youtube.com/" className='glightbox play-btn mb-4'></a>
+                <a href="https://www.youtube.com/" className='glightbox play-btn mb-4 font-0'>d</a>
               </div>
             </div>
             <div className='col-lg-6'>
-              <div data-aos="fade-up" className='about_right_top'>
-                <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
-              </div>
-              <div data-aos="fade-left" data-aos-offset="200" className='about_right_box'>
-                <div className='icon'>
-                  <i class="fa-solid fa-fingerprint"></i>
-                </div>
-                <div className='box_text'>
-                  <h4>Lorem Ipsum</h4>
-                  <p className='box_description'>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </div>
-              </div>
-              <div data-aos="fade-right" className='about_right_box'>
-                <div className='icon'>
-                  <i class="fa-solid fa-gift"></i>
-                </div>
-                <div className='box_text'>
-                  <h4>Nemo Enim</h4>
-                  <p className='box_description'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-              </div>
-              <div data-aos="fade-left" className='about_right_box'>
-                <div className='icon'>
-                  <i class="fa-solid fa-atom"></i>
-                </div>
-                <div className='box_text'>
-                  <h4>Dine Pad</h4>
-                  <p className='box_description'>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-                </div>
-              </div>
+              {
+                dataJson.about.map((d, i) => (
+                  <React.Fragment key={d.id}>
+                    <div data-aos="fade-up" className='about_right_top'>
+                      <h3>{d.title}</h3>
+                      <p>{d.sub_title}</p>
+                    </div>
+                    <div data-aos="fade-left" data-aos-offset="200" className='about_right_box'>
+                      <div className='icon'>
+                      <i class={d.icon}></i>
+                      </div>
+                      <div className='box_text'>
+                        <h4>{d.box_title}</h4>
+                        <p className='box_description'>{d.box_sub_title}</p>
+                      </div>
+                    </div>
+                  </React.Fragment>
+                ))
+              }
             </div>
+
           </div>
         </div>
       </section>
