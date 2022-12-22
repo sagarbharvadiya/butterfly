@@ -18,10 +18,10 @@ const Our_team = () => {
                                             <div className='member_Img'>
                                                 <img src={d.img} alt={d.img} className="img-fluid" />
                                                 <div className='Team_social'>
-                                                    <a href="/"><i class="fa-brands fa-twitter"></i></a>
-                                                    <a href="/"><i class="fa-brands fa-facebook"></i></a>
-                                                    <a href="/"><i class="fa-brands fa-instagram"></i></a>
-                                                    <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+                                                    <a href="/"><i className="fa-brands fa-twitter"></i></a>
+                                                    <a href="/"><i className="fa-brands fa-facebook"></i></a>
+                                                    <a href="/"><i className="fa-brands fa-instagram"></i></a>
+                                                    <a href="/"><i className="fa-brands fa-linkedin"></i></a>
                                                 </div>
                                             </div>
                                             <div className='team_info'>

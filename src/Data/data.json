@@ -3,7 +3,7 @@
         {
             "id": "1",
             "title": "CREATING WEBSITES THAT MAKE YOU STOP & STARE",
-            "sub_title": ">Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum.",
+            "sub_title": "Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum.",
             "btn": "Get Started",
             "img": "../images/hero-img.png"
         }
@@ -130,6 +130,170 @@
             "text": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
         }
     ],
+    "portfolio": [
+        {
+            "id": "1",
+            "img": "../images/portfolio-1.jpg",
+            "name": "Amanda Jepson",
+            "category": "App",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "2",
+            "img": "../images/portfolio-2.jpg",
+            "name": "Amanda Jepson",
+            "category": "App",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },  {
+            "id": "3",
+            "img": "../images/portfolio-3.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "4",
+            "img": "../images/portfolio-4.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },  {
+            "id": "5",
+            "img": "../images/portfolio-5.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "6",
+            "img": "../images/portfolio-6.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "7",
+            "img": "../images/portfolio-7.jpg",
+            "name": "Amanda Jepson",
+            "category": "",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "8",
+            "img": "../images/portfolio-8.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "9",
+            "img": "../images/portfolio-9.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        }
+
+    ],
+    "portfolio_details": [
+        {
+            "id": "1",
+            "img": "../images/portfolio-1.jpg",
+            "name": "Amanda Jepson",
+            "category": "App",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "2",
+            "img": "../images/portfolio-2.jpg",
+            "name": "Amanda Jepson",
+            "category": "App",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },  {
+            "id": "3",
+            "img": "../images/portfolio-3.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "4",
+            "img": "../images/portfolio-4.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },  {
+            "id": "5",
+            "img": "../images/portfolio-5.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "6",
+            "img": "../images/portfolio-6.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "7",
+            "img": "../images/portfolio-7.jpg",
+            "name": "Amanda Jepson",
+            "category": "",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "8",
+            "img": "../images/portfolio-8.jpg",
+            "name": "Amanda Jepson",
+            "category": "Web",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        },
+        {
+            "id": "9",
+            "img": "../images/portfolio-9.jpg",
+            "name": "Amanda Jepson",
+            "category": "Card",
+            "sub_name": "App",
+            "icon": "fa fa-plus",
+            "icon1": "fa-solid fa-link"
+        }
+
+    ],
     "testimonials_silder": [
         {
             "id": "1",
@@ -193,38 +357,38 @@
             "passion": "Accountant"
         }
     ],
-    "gallery":[
+    "gallery": [
         {
-            "id":"1",
-            "img":"../images/gallery-1.jpg"
+            "id": "1",
+            "img": "../images/gallery-1.jpg"
         },
         {
-            "id":"2",
-            "img":"../images/gallery-2.jpg"
+            "id": "2",
+            "img": "../images/gallery-2.jpg"
         },
         {
-            "id":"3",
-            "img":"../images/gallery-3.jpg"
+            "id": "3",
+            "img": "../images/gallery-3.jpg"
         },
         {
-            "id":"4",
-            "img":"../images/gallery-4.jpg"
+            "id": "4",
+            "img": "../images/gallery-4.jpg"
         },
         {
-            "id":"5",
-            "img":"../images/gallery-5.jpg"
+            "id": "5",
+            "img": "../images/gallery-5.jpg"
         },
         {
-            "id":"6",
-            "img":"../images/gallery-6.jpg"
+            "id": "6",
+            "img": "../images/gallery-6.jpg"
         },
         {
-            "id":"7",
-            "img":"../images/gallery-7.jpg"
+            "id": "7",
+            "img": "../images/gallery-7.jpg"
         },
         {
-            "id":"8",
-            "img":"../images/gallery-8.jpg"
+            "id": "8",
+            "img": "../images/gallery-8.jpg"
         }
     ],
     "contact": [
@@ -247,31 +411,24 @@
             "text": "+1 5589 55488 55s"
         }
     ],
-    "footer":[
+    "footer": [
         {
-            "id":"1",
-            "title":"Butterfly",
-            "address":"A108 Adam Street New York, NY 535022 United States",
-            "phone":"Phone: +1 5589 55488 55",
-            "email":"Email: info@example.com"
+            "id": "1",
+            "linktitle": "Useful Links",
+            "link1": "Home",
+            "link2": "About",
+            "link3": "services",
+            "link4": "Terms of service",
+            "link5": "Privacy policy"
         },
         {
-            "id":"2",
-            "linktitle":"Useful Links",
-            "link1":"Home",
-            "link2":"About",
-            "link3":"services",
-            "link4":"Terms of service",
-            "link5":"Privacy policy"
-        },
-        {
-            "id":"3",
-            "linktitle":"Our Services",
-            "link1":" Web Development",
-            "link2":"Product Management",
-            "link3":"services",
-            "link4":"Marketing",
-            "link5":"Graphic Design"
+            "id": "2",
+            "linktitle": "Our Services",
+            "link1": " Web Development",
+            "link2": "Product Management",
+            "link3": "services",
+            "link4": "Marketing",
+            "link5": "Graphic Design"
         }
     ]
 }

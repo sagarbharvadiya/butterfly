@@ -26,7 +26,7 @@ const About_section = () => {
                     </div>
                     <div data-aos="fade-left" data-aos-offset="200" className='about_right_box'>
                       <div className='icon'>
-                      <i class={d.icon}></i>
+                      <i className={d.icon}></i>
                       </div>
                       <div className='box_text'>
                         <h4>{d.box_title}</h4>

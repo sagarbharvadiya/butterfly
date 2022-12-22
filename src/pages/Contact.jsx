@@ -38,7 +38,7 @@ const Contact = () => {
                   dataJson.contact.map((d, i) => (
                     <React.Fragment key={d.id}>
                       <div className='address'>
-                        <i class={d.icon}></i>
+                        <i className={d.icon}></i>
                         <h4>{d.contact_left}</h4>
                         <p>{d.text}</p>
                       </div>
@@ -57,16 +57,16 @@ const Contact = () => {
                   <input type="email" className='form-control' name='email' id='email' placeholder='Your Email' required />
                 </div>
                 </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                <div className="form-group mt-3">
+                  <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
                 </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
-                <div class="my-3"><div class="loading">Loading</div><div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div className="form-group mt-3">
+                  <textarea className="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                <div className="my-3"><div className="loading">Loading</div><div className="error-message"></div>
+                  <div className="sent-message">Your message has been sent. Thank you!</div>
                 </div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div className="text-center"><button type="submit">Send Message</button></div>
               </form>
             </div>
           </div>

@@ -7,9 +7,12 @@ import Portfolio from './pages/Portfolio';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import Navbar from '../src/Components/Navbar'
+import Footer from './Components/Footer'
 import '../src/Css/style.css'
 import '../src/dist/aos.css'
-
+import NewsLetter from './Components/NewsLetter';
+import PortfolioFull from './Components/Portfolio_Full';
+import PortfolioDetails from './Components/Portfolio_details';
 function App() {
 
   return (
@@ -20,10 +23,14 @@ function App() {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/Services' element={<Services />} />
         <Route exact path='/portfolio' element={<Portfolio />} />
+        <Route exact path='/portfolioDetails' element={<PortfolioDetails />} />
+        <Route exact path='/portfolio/:portfolioId' element={<PortfolioFull />} />
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
-
+      <Contact />
+      <NewsLetter />
+      <Footer />
     </>
   );
 }
