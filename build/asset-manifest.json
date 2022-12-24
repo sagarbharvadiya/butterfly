@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7deae990.css",
+    "main.js": "/static/js/main.fba3e106.js",
+    "static/media/cta-bg.jpg": "/static/media/cta-bg.25f340810262353aea61.jpg",
+    "static/media/counts-bg.jpg": "/static/media/counts-bg.554e39ae793bc4f22533.jpg",
+    "static/media/about.jpg": "/static/media/about.aa3358404915b21cbc2f.jpg",
+    "index.html": "/index.html",
+    "main.7deae990.css.map": "/static/css/main.7deae990.css.map",
+    "main.fba3e106.js.map": "/static/js/main.fba3e106.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7deae990.css",
+    "static/js/main.fba3e106.js"
+  ]
+}
