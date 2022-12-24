@@ -1,11 +1,11 @@
 import React from 'react'
-import { useParams } from "react-router-dom"
+// import { useParams } from "react-router-dom"
 import dataJson from '../Data/data.json'
 import Slider from "react-slick";
 
 const Portfolio_details = () => {
-  const { productId } = useParams()
-  const portfolio_details = dataJson.portfolio_details.find(prod => prod.id === productId)
+  // const { productId } = useParams()
+  // const portfolio_details = dataJson.portfolio_details.find(prod => prod.id === productId)
 
 
   const settings = {
@@ -30,19 +30,31 @@ const Portfolio_details = () => {
         </div>
       </section>
 
-      <section id='portfolio-details' className='portfolio-details' key={portfolio_details.id}>
+      <section id='portfolio-details' className='portfolio-details'>
         <div className=' container'>
           <div className='row gy-4'>
-            <div className='col-lg-8'>
-              <div className='portfolio_img_slider'>
-                {/* <Slider {...settings}> */}
-                {/* <img src={portfolio_details.img} alt="1" /> */}
-                {/* </Slider> */}
-              </div>
-            </div>
-            <div className='col-lg-6'>
+            {
+              dataJson.portfolio_details.map((d, i) => (
+                <React.Fragment key={d.id}>
+                  <div className='col-lg-8'>
+                    <div className='portfolio_img_slider'>
+                      <Slider {...settings}>
+                        <img src={d.img} alt="1" />
+                        <img src={d.img1} alt="2"/>
+                      </Slider>
+                    </div>
+                    <div className='col-lg-4'>
+                      <div className='porftolio_name'>
+                        <h4>{d.name}</h4>
+                      </div>
+                    </div>
+                  </div>
+                </React.Fragment>
+              ))
 
-            </div>
+            }
+
+
 
           </div>
         </div>

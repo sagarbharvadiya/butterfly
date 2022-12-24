@@ -23,8 +23,8 @@ function App() {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/Services' element={<Services />} />
         <Route exact path='/portfolio' element={<Portfolio />} />
-        <Route exact path='/portfolioDetails' element={<PortfolioDetails />} />
-        <Route exact path='/portfolio/:portfolioId' element={<PortfolioFull />} />
+        <Route exact path='/portfolioDetails/:productId' element={<PortfolioDetails />} />
+        <Route exact path='/portfolio/:productId' element={<PortfolioFull />} />
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>

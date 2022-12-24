@@ -1,5 +1,6 @@
 import React from 'react'
 import dataJson from '../Data/data.json'
+
 const Our_team = () => {
     return (
         <>

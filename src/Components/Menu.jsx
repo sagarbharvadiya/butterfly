@@ -37,7 +37,7 @@ const Menu = () => {
                                                 <a href={img} data-gallery="portfolioGallery" className='portfolio-lightbox' title='app1'>
                                                     <i className={icon}></i>
                                                 </a>
-                                                
+
                                                 <Link title="More Details" data-item-id={id} to={`/portfolio/${id}`}>
                                                     <i className={icon1}></i>
                                                 </Link>

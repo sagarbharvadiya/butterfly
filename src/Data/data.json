@@ -148,7 +148,8 @@
             "sub_name": "App",
             "icon": "fa fa-plus",
             "icon1": "fa-solid fa-link"
-        },  {
+        },
+        {
             "id": "3",
             "img": "../images/portfolio-3.jpg",
             "name": "Amanda Jepson",
@@ -165,7 +166,8 @@
             "sub_name": "App",
             "icon": "fa fa-plus",
             "icon1": "fa-solid fa-link"
-        },  {
+        },
+        {
             "id": "5",
             "img": "../images/portfolio-5.jpg",
             "name": "Amanda Jepson",
@@ -210,89 +212,161 @@
             "icon": "fa fa-plus",
             "icon1": "fa-solid fa-link"
         }
-
     ],
     "portfolio_details": [
         {
             "id": "1",
             "img": "../images/portfolio-1.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-2.jpg",
+            "name": "Project information",
             "category": "App",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "2",
             "img": "../images/portfolio-2.jpg",
-            "name": "Amanda Jepson",
-            "category": "App",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
-        },  {
+            "img1": "../images/portfolio-3.jpg",
+            "name": "Project information",
+            "category": "Web",
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
+        },
+        {
             "id": "3",
             "img": "../images/portfolio-3.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-4.jpg",
+            "name": "Project information",
             "category": "Card",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "4",
             "img": "../images/portfolio-4.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-5.jpg",
+            "name": "Project information",
             "category": "Card",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
-        },  {
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
+        },
+        {
             "id": "5",
             "img": "../images/portfolio-5.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-6.jpg",
+            "name": "Project information",
             "category": "Web",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "6",
             "img": "../images/portfolio-6.jpg",
-            "name": "Amanda Jepson",
-            "category": "Web",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "img1": "../images/portfolio-4.jpg",
+            "name": "Project information",
+            "category": "App",
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "7",
             "img": "../images/portfolio-7.jpg",
-            "name": "Amanda Jepson",
-            "category": "",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "img1": "../images/portfolio-3.jpg",
+            "name": "Project information",
+            "category": "Card",
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "8",
             "img": "../images/portfolio-8.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-2.jpg",
+            "name": "Project information",
             "category": "Web",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         },
         {
             "id": "9",
             "img": "../images/portfolio-9.jpg",
-            "name": "Amanda Jepson",
+            "img1": "../images/portfolio-1.jpg",
+            "name": "Project information",
             "category": "Card",
-            "sub_name": "App",
-            "icon": "fa fa-plus",
-            "icon1": "fa-solid fa-link"
+            "cat": "Category:",
+            "cat_det":" Web design",
+            "client": "Client:",
+            "client_det":"ASU Company",
+            "date": "Project date:",
+            "date_dat":"01 March, 2020",
+            "url": "Project URL:",
+            "url_dat":"www.example.com",
+            "title": "This is an example of portfolio detail",
+            "dec": "Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius."
         }
-
     ],
     "testimonials_silder": [
         {

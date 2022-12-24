@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,8 @@
 body[data-aos-duration='4000'] [data-aos],
 [data-aos][data-aos][data-aos-duration='4000'] {
     transition-duration: 4000ms;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 header {
@@ -903,6 +905,7 @@ section.contact:nth-child(2) {
     text-align: center;
     z-index: 4;
 }
+
 .portfolio-wrap .portfolio-links a {
     color: #49b5e7;
     margin: 0 2px;
@@ -910,6 +913,7 @@ section.contact:nth-child(2) {
     display: inline-block;
     transition: 0.3s;
 }
+
 .portfolio-wrap .portfolio-info::after {
     display: block;
     content: "";
@@ -928,16 +932,19 @@ section.contact:nth-child(2) {
     bottom: 15px;
     right: 15px;
 }
+
 .breadcrumbs {
     padding: 15px 0;
     background: #f0f9fd;
     /* margin-top: 84px; */
 }
+
 .breadcrumbs h2 {
     font-size: 28px;
     font-weight: 400;
     font-family: "Lato", sans-serif;
 }
+
 .breadcrumbs ol {
     display: flex;
     flex-wrap: wrap;
@@ -946,15 +953,51 @@ section.contact:nth-child(2) {
     margin: 0;
     font-size: 15px;
 }
+
 .breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #175977;
     content: "/";
 }
-.breadcrumbs ol a{
+
+.breadcrumbs ol a {
     text-decoration: none;
 }
+
+.portfolio-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgb(15 57 76 / 8%);
+}
+
+.portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.portfolio-description {
+    padding-top: 30px;
+}
+
+.portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.portfolio-description p {
+    padding: 0;
+}
+
 @media only screen and (max-width: 767px) {
     .mobile-toggle {
         display: block !important;
